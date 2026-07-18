@@ -1,0 +1,14 @@
+name: workflow1
+on:
+  pull_request:
+    branches:
+
+jobs:
+  ziko:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+    - name: youssef
+      run: echo "eslam 3leko"
+      shell: bash
+    
